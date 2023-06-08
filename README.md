@@ -3,6 +3,7 @@ This is probably the most stupid idea I have ever actually ended up programming.
 
 ## Building
 ```
+$ chmod +x date.sh
 $ javac Main.java
 $ javac Bruteforce.java
 $ gcc date.c -o date
