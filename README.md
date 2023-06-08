@@ -11,7 +11,7 @@ $ gcc date.c -o date
 # chmod u+s date
 ```
 This creates the `date` binary. It's just a setuid wrapper around date.sh because I was too lazy to write it in C.
-If you actually end up using this code, please make sure to set date.sh as immutable to avoid silly LPE exploits.
+If you actually end up using this code, please make sure to set date.sh as immutable and modify date.c to use an absolute path to avoid silly LPE exploits.
 
 ## Running
 1. Get OBS Studio and start recording.
