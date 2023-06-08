@@ -1,7 +1,7 @@
 public class Main {
 	public static void main(String args[]) {
 		Bruteforce bruteforce = new Bruteforce();
-		for (int i = 5000; i < 10000; i++) {
+		for (int i = 0; i < 10000; i++) {
 			String combo = String.format("%04d", i);
 			bruteforce.tryCombo(combo);
 			System.out.println(combo);
